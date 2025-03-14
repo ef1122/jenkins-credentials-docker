@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Docker Build') {
       steps {
-        sh 'docker build -t apasoft/jenkins-web:latest .'
+        sh 'docker build -t ef1120/jenkins-web:latest .'
       }
     }
     stage('Docker Push') {
